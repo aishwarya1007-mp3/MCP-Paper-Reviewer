@@ -1,0 +1,92 @@
+ACADEMIC PAPER REVIEW CHECKLIST
+(Target venue: Top-tier CS / ML / Crypto conference such as ICLR, NeurIPS, CCS)
+
+--------------------------------------------------
+1. PROBLEM FORMULATION & MOTIVATION
+--------------------------------------------------
+- Is the problem clearly defined and well-scoped?
+- Is the motivation compelling and relevant to the target research community?
+- Is it clear why this problem matters now?
+- Are the limitations of existing approaches explicitly stated?
+
+--------------------------------------------------
+2. NOVELTY & ORIGINALITY
+--------------------------------------------------
+- Does the paper introduce a genuinely new idea, method, or theoretical insight?
+- Is the contribution incremental or substantially different from prior work?
+- Are the differences from closely related work clearly articulated?
+- Does the paper risk being a re-packaging or minor variation of known techniques?
+
+--------------------------------------------------
+3. RELATED WORK & CITATIONS
+--------------------------------------------------
+- Is the related work comprehensive and up to date?
+- Are seminal papers in the area cited?
+- Are recent (last 3–5 years) top-conference works included?
+- Are comparisons to the most relevant baselines present?
+- Are there claims that lack appropriate citations?
+
+--------------------------------------------------
+4. TECHNICAL SOUNDNESS
+--------------------------------------------------
+- Are the assumptions clearly stated and justified?
+- Are the definitions precise and unambiguous?
+- Are proofs (if any) correct, complete, and well-structured?
+- Are there missing steps, hand-wavy arguments, or unjustified leaps?
+- Does the methodology logically follow from the assumptions?
+
+--------------------------------------------------
+5. METHODOLOGY / THEORY / EXPERIMENTS
+--------------------------------------------------
+(Apply what is relevant)
+
+- Is the proposed method clearly described and reproducible?
+- Are experimental setups fair and appropriate?
+- Are baselines well-chosen and correctly implemented?
+- Are ablation studies or theoretical justifications sufficient?
+- Are negative results or failure cases discussed?
+
+--------------------------------------------------
+6. CLARITY & PRESENTATION
+--------------------------------------------------
+- Is the paper well-written and easy to follow?
+- Are figures, tables, and diagrams clear and informative?
+- Is notation consistent throughout the paper?
+- Are key ideas obscured by unnecessary complexity?
+
+--------------------------------------------------
+7. CLAIMS & CONCLUSIONS
+--------------------------------------------------
+- Do the conclusions follow logically from the results?
+- Are there over-claims or exaggerated statements?
+- Are limitations discussed honestly?
+- Does the paper clearly state its scope and boundaries?
+
+--------------------------------------------------
+8. IMPACT & SIGNIFICANCE
+--------------------------------------------------
+- If accepted, would this paper influence future research?
+- Does it open new directions or significantly improve existing ones?
+- Is the contribution mainly theoretical, practical, or both?
+- Who is the target audience?
+
+--------------------------------------------------
+9. REPRODUCIBILITY & ETHICAL CONSIDERATIONS
+--------------------------------------------------
+- Are sufficient details provided to reproduce the results?
+- Are datasets, code, or parameters described adequately?
+- Are there any ethical concerns or misuse risks?
+- Are claims responsibly framed?
+
+--------------------------------------------------
+10. OVERALL ASSESSMENT
+--------------------------------------------------
+- Strengths (list 2–3 major strengths)
+- Weaknesses (list 2–3 major weaknesses)
+- Overall novelty score (0–10)
+- Confidence in the review (low / medium / high)
+- Final recommendation:
+  - Accept
+  - Weak Accept
+  - Weak Reject
+  - Reject
