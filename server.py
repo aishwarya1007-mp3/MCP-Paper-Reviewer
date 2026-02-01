@@ -71,6 +71,33 @@ def detect_logical_gaps() -> dict:
         ]
     }
 
+#Aishwarya Gadhave
+@mcp.tool()
+def analyze_novelty(conference: str = "ICLR") -> str:
+    """
+    Analyze the paper's novelty with respect to a top-tier CS conference.
+    Returns a novelty score (0–10) with justification.
+    """
+    if _cached_paper is None:
+        raise RuntimeError("Paper not loaded. Call load_paper first.")
+
+    checklist = read_file(CHECKLIST_PATH)
+
+    return f"""
+Evaluate the novelty of this paper as if reviewing for {conference}.
+
+Source file: {_cached_path}
+
+Paper:
+{_cached_paper}
+
+Novelty checklist:
+{checklist}
+
+Return:
+- A novelty score between 0 and 10
+- 2–3 sentences justifying the score
+"""
 
 # Vishwajeet Godse
 @mcp.tool()
